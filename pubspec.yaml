@@ -19,12 +19,18 @@ publish_to: 'none' # Remova esta linha se desejar publicar no pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.4 <4.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.3  # Adicionando a dependência para realizar solicitações HTTP
+  mongo_dart: ^0.7.4
+  shelf: ^1.2.0
+  shelf_hotreload: ^1.1.0
+  shelf_router: ^1.1.2
+  shelf_web_socket: ^1.0.1
+  web_socket_channel: ^2.1.0
+  http: ^0.13.3  
   cupertino_icons: ^1.0.6
   shared_preferences: ^2.0.6
 
