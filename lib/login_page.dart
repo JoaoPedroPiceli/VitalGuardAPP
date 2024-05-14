@@ -124,7 +124,7 @@ class _LoginPageState extends State<LoginPage> {
                             style: TextStyle(fontSize: 20),
                             decoration: InputDecoration(
                               border: InputBorder.none,
-                              hintText: 'Digite seu login',
+                              hintText: '          ',
                             ),
                           ),
                         ),
@@ -158,7 +158,7 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                          hintText: 'Digite sua senha',
+                          hintText: '       ',
                         ),
                       ),
                     ),
